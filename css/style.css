@@ -8,13 +8,13 @@ html:before {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-image: url("../images/xbox-background.jpeg");
+  background-image: url("../images/blue-trianglify.png");
   background-size: cover;
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
   z-index: -9; }
 
 body {
@@ -110,6 +110,9 @@ a:hover, a:active {
   float: right;
   width: 65%;
   margin-top: 60px; }
+  .content .timeline-item {
+    box-shadow: 0px 0px 5px #80808099;
+    color: #3b3b3b !important; }
 
 .content-style {
   margin: 20px 40px;
@@ -174,7 +177,7 @@ a:hover, a:active {
   border-right: 1px solid #f2f2f2; }
   .sidebar .logo-title {
     text-align: center;
-    padding: 10px; }
+    padding-top: 120px; }
     .sidebar .logo-title .description {
       font-size: 14px;
       color: #565654; }
@@ -221,7 +224,7 @@ a:hover, a:active {
   margin: 30px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0px 0px 30px black; }
+  box-shadow: 1px 1px 3px #7b7878b3; }
   .post .post-title h1 {
     text-transform: uppercase;
     font-size: 30px;
@@ -572,10 +575,12 @@ a.btn {
     position: absolute;
     border-right: none;
     z-index: 1; }
-    .sidebar .logo-title .title img {
-      width: 100px; }
-    .sidebar .logo-title .title h3 {
-      font-size: 20px; }
+    .sidebar .logo-title {
+      padding-top: 120px; }
+      .sidebar .logo-title .title img {
+        width: 100px; }
+      .sidebar .logo-title .title h3 {
+        font-size: 20px; }
   .page-top {
     width: 100%; }
   .post-title h3 {
