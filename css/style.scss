@@ -9,7 +9,7 @@ html:before {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../images/blue-trianglify.png");
+	background: grey;
 	background-size: cover;
 	-webkit-filter: blur(0px);
     -moz-filter: blur(0px);
@@ -159,7 +159,7 @@ a:hover, a:active {
 	position: fixed;
 	right: 0;
 	z-index: 3;
-	background: url("../images/blue-trianglify.png");
+	background: grey;
 	background-position: center;
 	height: 60px;
 	border-bottom: 1px solid #f2f2f2;
@@ -853,7 +853,7 @@ a.btn {
 		line-height: 1.6;
 	}
 	.content{
-		margin-top: 340px;
+		margin-top: 380px;
 		width: 100%;
 		z-index: 2;
 		position: absolute;
@@ -867,11 +867,19 @@ a.btn {
 
 }
 
+
+@media screen and (max-width: 768px)
+{
+	.content{
+		margin-top: 340px;
+	}
+}
+
 @media screen and (max-width: 640px)
 {
 	.sidebar
 	{
-		height: 450px;
+		height: auto;
 
 		.logo-title
 		{
@@ -900,11 +908,6 @@ a.btn {
 
 @media screen and (max-width: 480px)
 {
-	.sidebar
-	{
-		height: auto;
-	}
-
 	.content {
 		margin-top: 425px;
 	}
