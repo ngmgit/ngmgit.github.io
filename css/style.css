@@ -1,21 +1,7 @@
 @charset "UTF-8";
 html {
-  background-color: #dedede;
+  background: white;
   -webkit-font-smoothing: antialiased; }
-
-html:before {
-  content: '';
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: grey;
-  background-size: cover;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-  z-index: -9; }
 
 body {
   color: rgba(0, 0, 0, 0.5);
