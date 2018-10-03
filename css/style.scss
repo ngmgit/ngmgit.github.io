@@ -144,13 +144,8 @@ a:hover, a:active {
 .content {
 	height: auto;
 	float: right;
-	width: 65%;
+	width: 70%;
 	margin-top:60px;
-
-	.timeline-item {
-		box-shadow: 0px 0px 5px #80808099;
-		color: rgb(59, 59, 59) !important;
-	}
 }
 
 .content-style {
@@ -160,11 +155,12 @@ a:hover, a:active {
 }
 
 .page-top{
-	width: 65%;
+	width: 70%;
 	position: fixed;
 	right: 0;
 	z-index: 3;
-	background: url("../images/blue-lowpoly.jpg");
+	background: url("../images/blue-trianglify.png");
+	background-position: center;
 	height: 60px;
 	border-bottom: 1px solid #f2f2f2;
 
@@ -185,12 +181,12 @@ a:hover, a:active {
 			color:white;
 		}
 		a:hover{
-			color:#4786D6;
+			color:#FFCF46;
 		}
 		a.current{
 			color:#D3FF8B;
 			padding-bottom: 22px;
-			border-bottom: 1px solid #5A5A5A;
+			//border-bottom: 1px solid #5A5A5A;
 		}
 	}
 
@@ -222,10 +218,11 @@ a:hover, a:active {
 
 }
 .sidebar {
-	width: 35%;
+	width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background: url("../images/Green-lowpoly/1542.jpg");
+	background: url("../images/trianglify.png");
+	background-size: cover;
 	//background-color: #e0d6b8;
 	height: 100%;
 	transition:0.8s;
@@ -313,7 +310,7 @@ a:hover, a:active {
 
 .post {
 	//background-color: #FFF;
-	margin: 30px;
+	margin: 15px;
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.8);
 	box-shadow: 1px 1px 3px #7b7878b3;
@@ -446,7 +443,16 @@ a:hover, a:active {
 
 }
 
+.projects {
+	h4, h3 {
+		margin: 1.3rem 0;
+	}
 
+	hr {
+		margin: 0.5rem 0;
+		border-top: 1px solid #c6c6c6;
+	}
+}
 
 
 .pagination {
@@ -794,19 +800,45 @@ a.btn {
 	text-align:center;
 	padding-top:50px;
 }
+
+.timeline-item {
+	h3 {
+	  font-size: 1.2rem;
+	  margin: 1rem 0;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.sidebar {
+		.logo-title
+		{
+			.title
+			{
+				img { width: 85%; }
+				h3 > a { font-size: 1.7rem;}
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 960px) {
 	.sidebar {
 		width: 100%;
+		padding-bottom: 40px;
+		height: auto;
 		position:absolute;
 		border-right:none;
+		border-bottom: 1px solid white;
 		z-index: 1;
 			.logo-title{
-				padding-top: 120px;
+				padding-top: 90px;
 
 				.title{
 
 					img{
-						width: 100px;
+						width: 35%;
+						float: left;
+						margin-left: 50px;
 					}
 					h3{
 						font-size: 20px;
@@ -821,7 +853,7 @@ a.btn {
 		line-height: 1.6;
 	}
 	.content{
-		margin-top: 420px;
+		margin-top: 340px;
 		width: 100%;
 		z-index: 2;
 		position: absolute;
@@ -833,4 +865,90 @@ a.btn {
 		display: grid;
 	}
 
+}
+
+@media screen and (max-width: 640px)
+{
+	.sidebar
+	{
+		height: 450px;
+
+		.logo-title
+		{
+			.title
+			{
+				img
+				{
+					margin: 0;
+					float:none;
+					width: 45%;
+				}
+			}
+		}
+	}
+
+	.content {
+		margin-top: 460px;
+	}
+
+	.projects {
+		iframe {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	.sidebar
+	{
+		height: auto;
+	}
+
+	.content {
+		margin-top: 425px;
+	}
+
+	.projects {
+		.post-content {
+			h1 {
+				font-size: 2.0rem;
+			}
+
+			h3 {
+				font-size: 20px;
+				line-height: 1.2em;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 380px)
+{
+	.sidebar
+	{
+		.logo-title {
+			.title {
+				img {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.content {
+		margin-top: 285px;
+	}
+
+	.projects {
+		.post-content {
+			h1 {
+				font-size: 1.6rem;
+			}
+
+			h3 {
+				font-size: 18px;
+			}
+		}
+	}
 }
