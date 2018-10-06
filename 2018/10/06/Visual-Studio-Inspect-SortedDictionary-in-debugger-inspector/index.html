@@ -10,6 +10,7 @@
 <h3 id="So-where-are-the-values-then"><a href="#So-where-are-the-values-then" class="headerlink" title="So where are the values then?"></a>So where are the values then?</h3><p>The contents of the SortedDictionary were actually available but were inside a nested key called tree. Yes a tree since <code>SortedDictinoary</code> is internally implented as a tree.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Your Vairable&gt; -&gt; [Non-public members]tree -&gt; [Non-public members] root</span><br></pre></td></tr></table></figure>
 <p>Checkout the below picture for better understanding. Although the info is not availble in a sorted list, its useful enough to check the values. In my usecase there were very few keys and didnt even need a sortedDictionary now that i think.</p>
+<p>Here one can check the values by traversing further the tree by expanding the <code>object left</code> or <code>object right</code> keys.</p>
 
 <div class="blog-img">
     <a href="/2018/10/06/Visual-Studio-Inspect-SortedDictionary-in-debugger-inspector/vs-dict-debug-tree.png">
