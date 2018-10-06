@@ -235,6 +235,8 @@ a:hover, a:active {
     color: #5f5f5f; }
     .post .post-title a:hover {
       text-decoration: underline; }
+  .post .post-content .blog-img {
+    width: 65%; }
   .post .post-content a {
     text-decoration: none;
     letter-spacing: 1px;
@@ -614,12 +616,17 @@ a.btn {
       width: 45%; }
   .content {
     margin-top: 460px; }
+    .content .blog-img {
+      width: 100%; }
   .projects iframe {
     width: 100%; } }
 
 @media screen and (max-width: 480px) {
   .content {
     margin-top: 425px; }
+    .content .post {
+      margin: 0;
+      box-shadow: none; }
   .projects .post-content h1 {
     font-size: 2.0rem; }
   .projects .post-content h3 {
@@ -631,6 +638,8 @@ a.btn {
     display: none; }
   .content {
     margin-top: 285px; }
+    .content .post {
+      box-shadow: none; }
   .projects .post-content h1 {
     font-size: 1.6rem; }
   .projects .post-content h3 {

@@ -342,6 +342,11 @@ a:hover, a:active {
 	}
 
 	.post-content{
+
+		.blog-img {
+			width: 65%;
+		}
+
 		a {
 			text-decoration: none;
 			letter-spacing: 1px;
@@ -883,6 +888,10 @@ a.btn {
 
 	.content {
 		margin-top: 460px;
+
+		.blog-img {
+			width: 100%;
+		}
 	}
 
 	.projects {
@@ -896,6 +905,11 @@ a.btn {
 {
 	.content {
 		margin-top: 425px;
+
+		.post {
+			margin: 0;
+			box-shadow: none;
+		}
 	}
 
 	.projects {
@@ -927,6 +941,10 @@ a.btn {
 
 	.content {
 		margin-top: 285px;
+
+		.post {
+			box-shadow: none;
+		}
 	}
 
 	.projects {
