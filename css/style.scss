@@ -323,7 +323,7 @@ a:hover, a:active {
 		h3 {
 			//text-transform: uppercase;
 			letter-spacing: 1px;
-			line-height: 1;
+			line-height: 1.2;
 			font-weight: 600;
 			color: #464646;
 			font-size: 22px;
@@ -852,10 +852,6 @@ a.btn {
 	.footer{
 		display: none;
 	}
-	.share{
-		display: grid;
-	}
-
 }
 
 
@@ -923,6 +919,10 @@ a.btn {
 				line-height: 1.2em;
 			}
 		}
+	}
+
+	.share {
+		margin: 20px;
 	}
 }
 
