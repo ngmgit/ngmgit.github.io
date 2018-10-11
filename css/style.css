@@ -202,7 +202,7 @@ a:hover, a:active {
     .sidebar .social-links a {
       color: #eaeaea; }
     .sidebar .social-links a:hover {
-      color: #4786D6; }
+      color: #FFCF46; }
 
 .post {
   margin: 15px;
@@ -234,6 +234,8 @@ a:hover, a:active {
       text-decoration: underline; }
   .post .post-content .blog-img {
     width: 65%; }
+  .post .post-content .codeblock-scroll .highlight {
+    height: 420px; }
   .post .post-content a {
     text-decoration: none;
     letter-spacing: 1px;
@@ -346,9 +348,9 @@ a:hover, a:active {
   width: 100%;
   padding-bottom: 20px; }
   .footer a {
-    color: #A6A6A6; }
+    color: #E6E6E6; }
   .footer a:hover {
-    color: #4786D6; }
+    color: #FFCF46; }
 
 /*for archive*/
 .archive {
@@ -426,6 +428,8 @@ a:hover, a:active {
   margin: 30px; }
   .about h3 {
     font-size: 22px; }
+  .about p {
+    font-size: 15px; }
 
 /* links*/
 .links {
