@@ -617,6 +617,8 @@ a.btn {
     margin-top: 460px; }
     .content .blog-img {
       width: 100%; }
+    .content iframe {
+      width: 100%; }
   .projects iframe {
     width: 100%; } }
 
