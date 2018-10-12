@@ -161,7 +161,7 @@ a:hover, a:active {
   border-right: 1px solid #f2f2f2; }
   .sidebar .logo-title {
     text-align: center;
-    padding-top: 120px; }
+    padding-top: 60px; }
     .sidebar .logo-title .description {
       font-size: 14px;
       color: #565654; }
@@ -179,13 +179,13 @@ a:hover, a:active {
       .sidebar .logo-title .title a {
         text-decoration: none;
         color: #fff;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: bold; }
       .sidebar .logo-title .title p {
         margin: 0;
         color: #fff; }
       .sidebar .logo-title .title img {
-        width: 60%;
+        width: 70%;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         padding: 10px; }
   .sidebar .social-links {
@@ -351,6 +351,9 @@ a:hover, a:active {
     color: #E6E6E6; }
   .footer a:hover {
     color: #FFCF46; }
+  .footer p {
+    color: #E6E6E6;
+    margin: 0; }
 
 /*for archive*/
 .archive {
@@ -633,6 +636,8 @@ a.btn {
   .projects .post-content h3 {
     font-size: 20px;
     line-height: 1.2em; }
+  .about {
+    margin: 0; }
   .share {
     margin: 20px; } }
 
