@@ -426,6 +426,34 @@ a:hover, a:active {
   .twitter a:hover {
     color: #4B9ECE; }
 
+.linked-in {
+  width: 32px;
+  height: 32px;
+  border-radius: 300px;
+  background-color: #59C0FD;
+  margin-right: 5px; }
+  .linked-in a {
+    color: #fff;
+    padding: 7px;
+    padding-left: 9px; }
+  .linked-in a:hover {
+    color: #4B9ECE; }
+
+.reddit {
+  width: 32px;
+  height: 32px;
+  border-radius: 300px;
+  background-color: orangered;
+  margin-right: 5px;
+  font-size: 16px; }
+  .reddit a {
+    color: #fff;
+    padding: 8px;
+    padding-left: 7px;
+    padding-top: 9px; }
+  .reddit a:hover {
+    color: #4B9ECE; }
+
 /* about */
 .about {
   margin: 30px; }
