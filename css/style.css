@@ -292,12 +292,27 @@ a:hover, a:active {
         .post .post-footer .tags a:hover {
           text-decoration: none; }
 
+.projects.post {
+  box-shadow: none; }
+
 .projects h4, .projects h3 {
   margin: 1.3rem 0; }
 
 .projects hr {
   margin: 0.5rem 0;
   border-top: 1px solid #c6c6c6; }
+
+.projects .project-section {
+  display: flex;
+  flex-wrap: wrap; }
+  .projects .project-section .project-block {
+    flex: 1 1 40%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0px 0px 5px #aeaeae80; }
+    .projects .project-section .project-block iframe {
+      width: 100%; }
 
 .pagination {
   margin: 30px;
@@ -604,6 +619,17 @@ a.btn {
   .sidebar .logo-title .title h3 > a {
     font-size: 1.7rem; } }
 
+@media screen and (max-width: 1280px) {
+  .projects .project-section {
+    display: block;
+    flex-wrap: unset; }
+    .projects .project-section .project-block {
+      flex: unset;
+      margin: unset;
+      margin-bottom: 10px; }
+      .projects .project-section .project-block iframe {
+        width: 480px; } }
+
 @media screen and (max-width: 960px) {
   .sidebar {
     width: 100%;
@@ -650,7 +676,7 @@ a.btn {
       width: 100%; }
     .content iframe {
       width: 100%; }
-  .projects iframe {
+  .projects .project-section .project-block iframe {
     width: 100%; } }
 
 @media screen and (max-width: 480px) {
@@ -664,6 +690,11 @@ a.btn {
   .projects .post-content h3 {
     font-size: 20px;
     line-height: 1.2em; }
+  .projects .post-content .project-section .project-block {
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0; }
   .about {
     margin: 0; }
   .share {
