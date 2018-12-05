@@ -191,14 +191,15 @@ a:hover, a:active {
   .sidebar .social-links {
     list-style: none;
     padding: 0;
-    font-size: 17px;
+    font-size: 24px;
     text-align: center; }
     .sidebar .social-links i {
       margin-right: 3px; }
     .sidebar .social-links li {
       display: inline;
       padding: 0 4px;
-      line-height: 0; }
+      line-height: 0;
+      margin: 0 5px; }
     .sidebar .social-links a {
       color: #eaeaea; }
     .sidebar .social-links a:hover {
