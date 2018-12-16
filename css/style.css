@@ -130,8 +130,7 @@ a:hover, a:active {
       padding-bottom: 22px; }
   .page-top .information {
     float: right;
-    padding-top: 12px;
-    padding-right: 20px; }
+    padding-top: 12px; }
     .page-top .information .avatar {
       float: right; }
       .page-top .information .avatar img {
@@ -139,6 +138,7 @@ a:hover, a:active {
         height: 32px;
         border-radius: 300px; }
     .page-top .information .back_btn {
+      color: white;
       float: left;
       padding-top: 5px;
       margin-right: -10px; }
@@ -233,23 +233,29 @@ a:hover, a:active {
     color: #5f5f5f; }
     .post .post-title a:hover {
       text-decoration: underline; }
-  .post .post-content .blog-img {
-    width: 65%; }
-  .post .post-content .codeblock-scroll .highlight {
-    height: 420px; }
-  .post .post-content a {
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: #4786D6; }
-  .post .post-content a:hover {
-    color: #2F69B3; }
-  .post .post-content h3 {
-    color: #5F5F5F;
-    font-size: 22px;
-    font-weight: 600; }
-  .post .post-content h4 {
-    color: #5F5F5F;
-    font-size: 16px; }
+  .post .post-content {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word; }
+    .post .post-content .blog-img {
+      width: 65%; }
+    .post .post-content .codeblock-scroll .highlight {
+      height: 420px; }
+    .post .post-content a {
+      text-decoration: none;
+      letter-spacing: 1px;
+      color: #4786D6; }
+    .post .post-content a:hover {
+      color: #2F69B3; }
+    .post .post-content h3 {
+      color: #5F5F5F;
+      font-size: 22px;
+      font-weight: 600; }
+    .post .post-content h4 {
+      color: #5F5F5F;
+      font-size: 16px; }
   .post .post-footer {
     /*
 		padding: 0 0 30px 0;
