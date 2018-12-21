@@ -294,13 +294,21 @@ a:hover, a:active {
 	}
 }
 
+.post:hover {
+	-webkit-transform: translateY(-4px);
+	transform: translateY(-4px);
+	box-shadow: 0 10px 42px rgba(25,17,34,0.1);
+}
 
 .post {
 	//background-color: #FFF;
 	margin: 15px;
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.8);
-	box-shadow: 1px 1px 3px #7b7878b3;
+	box-shadow: 0 3px 10px rgba(25,17,34,0.05);
+	-webkit-transition: -webkit-transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
+	-webkit-transition: transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
+	transition: transform 250ms cubic-bezier(0.4,0,0.2,1),box-shadow 250ms cubic-bezier(0.4,0,0.2,1),padding 250ms cubic-bezier(0.4,0,0.2,1);
 
 
 	.post-title{
@@ -883,7 +891,19 @@ a.btn {
 	}
 }
 
+
+@media screen and (min-width: 1280px) {
+	.content > .post {
+		width: 70%;
+		margin: 15px auto;
+	}
+}
+
 @media screen and (max-width: 1280px) {
+	.post{
+		width: auto;
+	}
+
 	.sidebar {
 		.logo-title
 		{
@@ -894,9 +914,7 @@ a.btn {
 			}
 		}
 	}
-}
 
-@media screen and (max-width: 1280px) {
 	.projects {
 
 		.project-section {
