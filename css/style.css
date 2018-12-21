@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html {
-  background: white;
+  background: #f0f5fc;
   -webkit-font-smoothing: antialiased; }
 
 body {
@@ -92,6 +92,7 @@ a:hover, a:active {
 
 /*animation ends*/
 .content {
+  background-color: #f0f5fc;
   height: auto;
   float: right;
   width: 70%;

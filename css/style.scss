@@ -1,6 +1,6 @@
 html {
 	//background-color: #dedede;
-	background: white;
+	background: #f0f5fc;
 	-webkit-font-smoothing: antialiased;
 
 }
@@ -128,6 +128,7 @@ a:hover, a:active {
 
 
 .content {
+	background-color: #f0f5fc;
 	height: auto;
 	float: right;
 	width: 70%;
@@ -616,7 +617,7 @@ a:hover, a:active {
 			}
 
 			 a {
-				 margin-left: 20px;
+				margin-left: 20px;
 				color: #8F8F8F;
 
 				 &:hover{
