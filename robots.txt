@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://ngmgit.github.io/sitemap.xml

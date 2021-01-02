@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://ngmgit.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/practical-oop-simple-polymorphism-to-avoid-duplicate-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/setup-c-in-vs-code-windows-gcc-gdb</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/unity-3-d-understanding-what-lerp-does-and-how</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/visual-studio-inspect-sorted-dictionary-in-debugger-inspector</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/my-first-blog-in-hexo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/daily</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/c</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/oop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/unity-3-d</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/debug</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/editor</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/game-dev</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/gcc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/gdb</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/how-to</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/maths</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/mingw</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/polymorphism</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/visual-studio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ngmgit.github.io/tags/vscode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
